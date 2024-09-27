@@ -1,0 +1,101 @@
+.classroom-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f0f4f8; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+}
+
+.classroom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.classroom-title {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #333; 
+}
+
+.classroom-controls {
+    display: flex;
+    gap: 15px;
+}
+
+.classroom-controls button {
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: #28a745; 
+    color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.classroom-controls button:hover {
+    background-color: #218838;
+    transform: translateY(-2px); 
+}
+
+.classroom-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.classroom-body {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.classroom-list {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.classroom-list h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.classroom-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.classroom-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    color: #555;
+    transition: background-color 0.3s;
+}
+
+.classroom-list li:last-child {
+    border-bottom: none;
+}
+
+.classroom-list li:hover {
+    background-color: #f9f9f9; 
+}
