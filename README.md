@@ -46,8 +46,11 @@ This project was built using:
 2. Install the project dependencies:
 
    ```bash
-   frontend/npm install
-   backend/npm install
+   cd backend/
+   npm install
+
+   cd ../frontend/
+   npm install
    ```
 
 3. Setup MongoDB Configuration:
